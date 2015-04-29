@@ -14,7 +14,6 @@ BasicGame.Preloader.prototype = {
 
 		//	These are the assets we loaded in Boot.js
 		//	A nice sparkly background and a loading progress bar
-		this.background = this.add.sprite(0, 0, 'loadBg');
 		this.loadBar = this.add.sprite(190, 250, 'loadBar');
 
 		//	This sets the loadBar sprite as a loader sprite.
